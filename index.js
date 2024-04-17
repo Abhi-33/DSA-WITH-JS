@@ -8,19 +8,20 @@ function addUpton(n){ //solution1
     }
     return total;
 }
-console.log(addUpton(1000000));
+console.log(addUpton(1000000));  //Time Complexity - O(n)
 
 //solution2 
 // function addUpton(n){
 //     return n * (n+1) / 2;
 // }
 // 6*(6+1)/2
-// console.log(addUpton(1000000));
+// console.log(addUpton(1000000));  >>Time Complexity - O(1)
 //  2nd Example
 function printAllpairs(n){
     for(var i=0;i<n;i++){
         for(var j =0 ;j<n;j++){
-            console.log(i,j)
-        }
-    }
-}
+            console.log(i,j)        //>>Time Complexity - O(n^2)
+        }                               
+    }                           
+}                               
+printAllpairs(9);
