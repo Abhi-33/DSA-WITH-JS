@@ -16,3 +16,11 @@ console.log(addUpton(1000000));
 // }
 // 6*(6+1)/2
 // console.log(addUpton(1000000));
+//  2nd Example
+function printAllpairs(n){
+    for(var i=0;i<n;i++){
+        for(var j =0 ;j<n;j++){
+            console.log(i,j)
+        }
+    }
+}
