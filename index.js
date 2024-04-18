@@ -48,3 +48,7 @@ function orderOfone(n){
 }
 console.log(orderOfone(2)); //Time complexity : O(1)
 
+// 6th Example 
+function orderOfdoubleN(n){
+    
+}
