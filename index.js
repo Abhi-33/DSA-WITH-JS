@@ -42,7 +42,9 @@ function logAtMost5(n){
 }
 // logAtMost5(2); >>Time Complexity : O(1)
 
+// 5th Example
 function orderOfone(n){
     return n * (n+1) / 2;
 }
 console.log(orderOfone(2)); //Time complexity : O(1)
+
