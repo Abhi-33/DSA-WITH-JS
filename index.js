@@ -50,5 +50,9 @@ console.log(orderOfone(2)); //Time complexity : O(1)
 
 // 6th Example 
 function orderOfdoubleN(n){
-    
+    for(let i =0;i<n;i++){
+        for(let j=1;i<n;j++){
+            
+        }
+    }
 }
