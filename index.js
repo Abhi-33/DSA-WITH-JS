@@ -45,4 +45,4 @@ function logAtMost5(n){
 function orderOfone(n){
     return n * (n+1) / 2;
 }
-console.log(orderOfone(2));
+console.log(orderOfone(2)); //Time complexity : O(1)
