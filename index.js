@@ -59,6 +59,7 @@ function orderOfdoubleN(n){
     for(let i =0;i<n;i++){
         for(let j=1;i<n-1;j++){
             console.log(i , j);
+            //hello my name is abhishek vashisth
         }
     }
 }
