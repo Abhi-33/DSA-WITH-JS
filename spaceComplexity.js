@@ -17,4 +17,4 @@ function double(arr) {
     }
     return newArr;
 }
-console.log(double([1,2,3]))
+// console.log(double([1,2,3]))
