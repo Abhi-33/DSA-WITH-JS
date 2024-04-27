@@ -7,3 +7,14 @@ function sum(arr){
     }
     return total;       //space complexity : O(1)
 }                       
+
+// Example 2
+function double(arr) {
+    let newArr = [];
+    for (let i = 0; i < arr.length; i++) {
+        newArr.push(2*arr[i]);
+        
+    }
+    return newArr;
+}
+console.log(double([1,2,3]))
