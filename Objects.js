@@ -11,5 +11,5 @@ let instructor = {
 }
 console.log(Object.keys(instructor));  //Big 0 - O(N) 
 console.log(Object.entries(instructor));  //Big 0 - O(N) 
-console.log(Object.keys(instructor));  //Big 0 - O(N) 
-console.log(Object.keys(instructor));  //Big 0 - O(1) 
+console.log(Object.values(instructor));  //Big 0 - O(N) 
+console.log(Object.hasOwnProperty(instructor));  //Big 0 - O(1) 
