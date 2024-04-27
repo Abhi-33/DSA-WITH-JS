@@ -15,6 +15,6 @@ function double(arr) {
         newArr.push(2*arr[i]);
         
     }
-    return newArr;
+    return newArr;          //Space Complexity - O(n)
 }
 // console.log(double([1,2,3]))
