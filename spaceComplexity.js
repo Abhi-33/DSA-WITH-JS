@@ -5,5 +5,5 @@ function sum(arr){
         total+= arr[i];
         
     }
-    return total;
+    return total;       //space complexity : O(1)
 }                       
