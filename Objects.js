@@ -13,3 +13,4 @@ console.log(Object.keys(instructor));  //Big 0 - O(N)
 console.log(Object.entries(instructor));  //Big 0 - O(N) 
 console.log(Object.values(instructor));  //Big 0 - O(N) 
 console.log(Object.hasOwnProperty(instructor));  //Big 0 - O(1) 
+// Above These were the basics of Objects now we'll study some advanced level stuff. 
