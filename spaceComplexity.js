@@ -18,3 +18,13 @@ function double(arr) {
     return newArr;          //Space Complexity - O(n)
 }
 // console.log(double([1,2,3]))
+//Example 3
+function triple(arr) {
+    let newArr = [];
+    for (let i = 0; i < arr.length; i++) {
+        newArr.push(3*arr[i]);
+        
+    }
+    return newArr;          //Space Complexity - O(n)
+}
+// console.log(double([1,2,3]))
