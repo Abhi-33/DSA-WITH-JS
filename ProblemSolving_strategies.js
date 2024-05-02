@@ -15,7 +15,7 @@
 //5. How should i label the pieces of data that are a part of the problem ?
 
 // example of how basic function will look like 
-function sum (a,b){
-    return a+b;
-}
+// function sum (a,b){
+//     return a+b;
+// }
 // console.log(sum(5,6));
