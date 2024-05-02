@@ -13,3 +13,9 @@
         // -ints? floatS? strings?
 //4. Can the outputs be determined from the inputs ? (do i have enough information to solve the problem)
 //5. How should i label the pieces of data that are a part of the problem ?
+
+// example of how basic function will look like 
+function sum (a,b){
+    return a+b;
+}
+// console.log(sum(5,6));
