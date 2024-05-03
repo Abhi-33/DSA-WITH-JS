@@ -31,3 +31,7 @@
 //"Hello hi"  more complex problem 
 //charCount("") empty input 
 //charCount(9) invalid input
+
+function charCount(){
+    
+}
