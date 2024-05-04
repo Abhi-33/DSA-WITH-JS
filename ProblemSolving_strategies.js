@@ -37,7 +37,7 @@ function charCount(str){
     let result = {};
     //loop over string , for each character ...
     for(let i=0 ; i<str.length;i++){
-        let char = str[i];
+        let char = str[i].toLowercase();
         //if the char is a number / letter  AND is a key in object , add one to count
         if(result[char] > 0){
             result[char]++;
@@ -49,7 +49,6 @@ function charCount(str){
     }
     //return object at end
      return result;
-
 }
 
 console.log(charCount('Abhishek'));
