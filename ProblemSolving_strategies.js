@@ -42,7 +42,7 @@ function charCount(str){
 
 }
 
-// reverse an Array
+// reverse an Array -- a very common problem and below is the easiest method to solve this
 const arr = [1 ,2 ,3 ,4,5];
 const rev  =arr.reverse();
 console.log(rev);
