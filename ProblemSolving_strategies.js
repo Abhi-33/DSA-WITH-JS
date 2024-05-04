@@ -32,6 +32,17 @@
 //charCount("") empty input 
 //charCount(9) invalid input
 
-function charCount(){
-    
+function charCount(str){
+    //make object to return at end 
+    //loop over string , for each character ...
+    //if the char is a number / letter  AND is a key in object , add one to count
+    //if the char is a number /letter AND not in object , add it to object adn set value to 1
+    //if character is something else (space , period , etc.) don't do anything
+    //return object at end 
+
 }
+
+// reverse an Array
+const arr = [1 ,2 ,3 ,4,5];
+const rev  =arr.reverse();
+console.log(rev);
