@@ -1,9 +1,10 @@
-'use strict';
-function Factorial(n){
-    let fact = 1;
-    for(let i =0;i<=n ; i++){
-       let  digit = fact * n;
+function factorial(n){
+    if(n ==0 || n==1){
+        return 1;
     }
-    console.log(`The factorial of ${n} is  : ${fact}`);
+    else{
+        return n * factorial(n-1);
+    }
 }
-Factorial(5);
+
+ console.log(factorial(5));
