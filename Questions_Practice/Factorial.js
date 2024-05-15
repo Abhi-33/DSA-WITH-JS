@@ -12,3 +12,11 @@ function factorial(n){
 }
 
  console.log(factorial(5));
+
+// button.addEventListener('click', ()=>{
+//     let count =0 ;
+//     while(click){
+//         count++
+// ;
+//     }
+// })
